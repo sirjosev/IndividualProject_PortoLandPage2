@@ -6,13 +6,13 @@ modeBtn.onchange = (e) => {
     document.documentElement.classList.remove("light")
     document.documentElement.classList.add("dark")
     const choiceImgDark = document.querySelector (".presentation__image");
-    choiceImgDark.src = 'images/images-moi-no-background.webp';
+    choiceImgDark.src = 'images/josev-siuu.png';
     window.localStorage.setItem('mode', 'dark');
   } else {
     document.documentElement.classList.remove("dark")
     document.documentElement.classList.add("light")
     const choiceImgDark = document.querySelector (".presentation__image");
-    choiceImgDark.src = 'images/images-moi-no-background-light.webp';
+    choiceImgDark.src = 'images/josev-siuu.png';
     window.localStorage.setItem('mode', 'light');
   }
 }
