@@ -21,7 +21,7 @@ modeBtn.onchange = (e) => {
 // typing-text effect //
 
 const dynamicText = document.querySelector(".bienvenue__effect-typing");
-const words = ["Zak Manguet", "Webdesigner", "Integrator", "Creative" ];
+const words = ["Yusuf Al-Rahman", "Webrecyler", "Handsome", "&Homeless" ];
 
 let wordIndex = 0;
 let charIndex = 0;
